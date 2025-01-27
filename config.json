@@ -1955,6 +1955,13 @@
             "target": "ms-settings:bluetooth"
           }
         ],
+        "lz": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "target": "https://www.lanzoui.com/"
+          }
+        ],
         "mm": [
           {
             "windowGroupID": 0,
