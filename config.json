@@ -64,6 +64,14 @@
             "actionValueID": 8
           }
         ],
+        "*backspace": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "label:77",
+            "actionValueID": 7
+          }
+        ],
         "*c": [
           {
             "windowGroupID": 0,
@@ -1889,6 +1897,13 @@
             "actionTypeID": 1,
             "comment": "打开「 MyKeymap 」文件夹",
             "target": "ahk-expression: A_WorkingDir"
+          }
+        ],
+        "ds": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "target": "https://chat.deepseek.com/"
           }
         ],
         "ex": [
