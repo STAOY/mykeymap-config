@@ -115,9 +115,9 @@
         "*h": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:31",
-            "actionValueID": 7
+            "actionTypeID": 3,
+            "comment": "label:13",
+            "actionValueID": 11
           }
         ],
         "*i": [
