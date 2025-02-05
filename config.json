@@ -40,6 +40,22 @@
             "keysToSend": "{home}+{end}{backspace}\n{text}i love homura and hikari\nsleep 1000\n{enter}yes{enter}"
           }
         ],
+        "*1": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "窗口位置1",
+            "ahkCode": "SetWindowPositionAndSize(0, 0, 800, 1600)"
+          }
+        ],
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:6",
+            "actionValueID": 6
+          }
+        ],
         "*;": [
           {
             "windowGroupID": 0,
@@ -48,12 +64,28 @@
             "actionValueID": 8
           }
         ],
-        "*a": [
+        "*[": [
           {
             "windowGroupID": 0,
             "actionTypeID": 3,
-            "comment": "label:13",
-            "actionValueID": 11
+            "comment": "label:5",
+            "actionValueID": 5
+          }
+        ],
+        "*]": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:6",
+            "actionValueID": 6
+          }
+        ],
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "窗口自动移位（auto） win left",
+            "keysToSend": "#{Left}"
           }
         ],
         "*b": [
@@ -115,25 +147,25 @@
         "*i": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:25",
-            "actionValueID": 1
+            "actionTypeID": 8,
+            "comment": "窗口右上",
+            "ahkCode": "SetWindowPositionAndSize(1254, 0, 1280, 800)"
           }
         ],
         "*j": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:27",
-            "actionValueID": 3
+            "actionTypeID": 8,
+            "comment": "窗口左下",
+            "ahkCode": "SetWindowPositionAndSize(-8, 790, 1280, 818)"
           }
         ],
         "*k": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:26",
-            "actionValueID": 2
+            "actionTypeID": 8,
+            "comment": "窗口右下",
+            "ahkCode": "SetWindowPositionAndSize(1254, 790, 1280, 818)"
           }
         ],
         "*l": [
@@ -171,17 +203,17 @@
         "*p": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 3,
-            "comment": "label:6",
-            "actionValueID": 6
+            "actionTypeID": 8,
+            "comment": "窗口到右侧",
+            "ahkCode": "SetWindowPositionAndSize(1820, 0, 750, 1600)"
           }
         ],
         "*q": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 3,
-            "comment": "label:5",
-            "actionValueID": 5
+            "actionTypeID": 8,
+            "comment": "窗口到左侧",
+            "ahkCode": "SetWindowPositionAndSize(0, 0, 700, 1600)"
           }
         ],
         "*r": [
@@ -219,9 +251,9 @@
         "*u": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:29",
-            "actionValueID": 5
+            "actionTypeID": 8,
+            "comment": "窗口左上",
+            "ahkCode": "SetWindowPositionAndSize(-8, 0, 1280, 800)"
           }
         ],
         "*v": [
@@ -2371,6 +2403,6 @@
     "startup": true,
     "language": "zh",
     "keyMapping": "",
-    "keyboardLayout": "1 2 3 4 5 6 7 8 9 0\nq w e r t y u i o p\na s d f g h j k l ;\nz x c v b n m , . /\nspace enter backspace - [ ' singlePress"
+    "keyboardLayout": "esc f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12\n` 1 2 3 4 5 6 7 8 9 0 - = backspace\ntab q w e r t y u i o p [ ] \\\ncapslock a s d f g h j k l ; ' enter\nLShift z x c v b n m , . / RShift\nLCtrl LWin LAlt space RAlt RWin RCtrl singlePress"
   }
 }
