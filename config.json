@@ -1899,6 +1899,15 @@
             "target": "ahk-expression: A_Desktop \"\\Game\""
           }
         ],
+        "gh": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "打开github",
+            "winTitle": "GitHub ahk_class Chrome_WidgetWin_1 ahk_exe brave.exe",
+            "target": "\"C:\\Users\\stao\\Downloads\\MyKeymap-2.0-beta32\\shortcuts\\GitHub.lnk\""
+          }
+        ],
         "gj": [
           {
             "windowGroupID": 0,
