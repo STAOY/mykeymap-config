@@ -8,30 +8,6 @@
       "parentID": 0,
       "delay": 0,
       "hotkeys": {
-        "*,": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:36",
-            "actionValueID": 12
-          }
-        ],
-        "*.": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 3,
-            "comment": "label:15",
-            "actionValueID": 13
-          }
-        ],
-        "*/": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:37",
-            "actionValueID": 13
-          }
-        ],
         "*0": [
           {
             "windowGroupID": 0,
@@ -168,14 +144,6 @@
             "ahkCode": "SetWindowPositionAndSize(1254, 790, 1280, 818)"
           }
         ],
-        "*l": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:28",
-            "actionValueID": 4
-          }
-        ],
         "*m": [
           {
             "windowGroupID": 0,
@@ -192,28 +160,12 @@
             "actionValueID": 9
           }
         ],
-        "*o": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 4,
-            "comment": "label:30",
-            "actionValueID": 6
-          }
-        ],
         "*p": [
           {
             "windowGroupID": 0,
             "actionTypeID": 8,
             "comment": "窗口到右侧",
             "ahkCode": "SetWindowPositionAndSize(1820, 0, 750, 1600)"
-          }
-        ],
-        "*q": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 8,
-            "comment": "窗口到左侧",
-            "ahkCode": "SetWindowPositionAndSize(0, 0, 700, 1600)"
           }
         ],
         "*r": [
@@ -278,14 +230,6 @@
             "actionTypeID": 3,
             "comment": "label:1",
             "actionValueID": 1
-          }
-        ],
-        "*y": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 3,
-            "comment": "label:5",
-            "actionValueID": 5
           }
         ],
         "*z": [
