@@ -8,6 +8,14 @@
       "parentID": 0,
       "delay": 0,
       "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "窗口放置于右下角",
+            "ahkCode": "SetWindowPositionAndSize(1820, 1000, 750, 600)"
+          }
+        ],
         "*0": [
           {
             "windowGroupID": 0,
@@ -166,6 +174,14 @@
             "actionTypeID": 8,
             "comment": "窗口到右侧",
             "ahkCode": "SetWindowPositionAndSize(1820, 0, 750, 1600)"
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "窗口到左侧",
+            "ahkCode": "SetWindowPositionAndSize(-10, 0, 892, 1600)"
           }
         ],
         "*r": [
@@ -2114,6 +2130,15 @@
             "comment": "用 Windows Terminal 打开选中的文件夹",
             "target": "wt.exe",
             "args": "-d \"{selected}\""
+          }
+        ],
+        "wx": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "打开微信",
+            "winTitle": "微信 ahk_class WeChatMainWndForPC ahk_exe WeChat.exe",
+            "target": "shortcuts\\微信.lnk"
           }
         ]
       }
