@@ -133,7 +133,7 @@
             "windowGroupID": 0,
             "actionTypeID": 8,
             "comment": "窗口右上",
-            "ahkCode": "SetWindowPositionAndSize(1254, 0, 1280, 800)"
+            "ahkCode": "SetWindowPositionAndSize(1254, 0, 1320, 800)"
           }
         ],
         "*j": [
@@ -149,7 +149,7 @@
             "windowGroupID": 0,
             "actionTypeID": 8,
             "comment": "窗口右下",
-            "ahkCode": "SetWindowPositionAndSize(1254, 790, 1280, 818)"
+            "ahkCode": "SetWindowPositionAndSize(1254, 790, 1320, 818)"
           }
         ],
         "*m": [
@@ -349,9 +349,10 @@
         "*m": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 8,
-            "comment": "如果 TIM.exe 进程存在则输入 Ctrl+Alt+Z 热键激活 TIM，否则启动 TIM",
-            "ahkCode": "ProcessExistSendKeyOrRun(\"TIM.exe\", \"^!z\", \"shortcuts\\TIM.lnk\")"
+            "actionTypeID": 1,
+            "comment": "召唤 网易云音乐",
+            "winTitle": "ahk_exe cloudmusic.exe",
+            "target": "shortcuts\\网易云音乐.lnk"
           }
         ],
         "*n": [
