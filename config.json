@@ -248,6 +248,14 @@
             "actionValueID": 1
           }
         ],
+        "*y": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "窗口居中",
+            "ahkCode": "CenterAndResizeWindow(1200, 800)"
+          }
+        ],
         "*z": [
           {
             "windowGroupID": 0,
@@ -860,6 +868,14 @@
       "parentID": 0,
       "delay": 0,
       "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 9",
+            "remapToKey": "9"
+          }
+        ],
         "*/": [
           {
             "windowGroupID": 0,
@@ -906,14 +922,6 @@
             "actionTypeID": 5,
             "comment": "Remap to F9",
             "remapToKey": "F9"
-          }
-        ],
-        "*b": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 5,
-            "comment": "Remap to 7",
-            "remapToKey": "7"
           }
         ],
         "*c": [
@@ -976,16 +984,16 @@
           {
             "windowGroupID": 0,
             "actionTypeID": 5,
-            "comment": "Remap to 9",
-            "remapToKey": "9"
+            "comment": "重映射为 8",
+            "remapToKey": "8"
           }
         ],
         "*n": [
           {
             "windowGroupID": 0,
             "actionTypeID": 5,
-            "comment": "Remap to 8",
-            "remapToKey": "8"
+            "comment": "重映射为 7",
+            "remapToKey": "7"
           }
         ],
         "*o": [
@@ -2077,9 +2085,9 @@
           {
             "windowGroupID": 0,
             "actionTypeID": 1,
-            "comment": "Spotify 应用",
-            "winTitle": "ahk_exe Spotify.exe",
-            "target": "shortcuts\\Spotify.lnk"
+            "comment": "速算练习",
+            "winTitle": "速算练习 - Brave ahk_class Chrome_WidgetWin_1 ahk_exe brave.exe",
+            "target": "https://calculating-exercise.netlify.app/"
           }
         ],
         "tm": [
