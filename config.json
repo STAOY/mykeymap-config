@@ -478,7 +478,7 @@
       "enable": true,
       "hotkey": "*j",
       "parentID": 0,
-      "delay": 0,
+      "delay": 30,
       "hotkeys": {
         "*,": [
           {
@@ -635,9 +635,9 @@
         "*t": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 7,
-            "comment": "label:55",
-            "actionValueID": 33
+            "actionTypeID": 6,
+            "comment": "新建标签页",
+            "keysToSend": "^t"
           }
         ],
         "*v": [
