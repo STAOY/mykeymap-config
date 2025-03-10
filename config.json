@@ -40,6 +40,14 @@
             "actionValueID": 6
           }
         ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "窗口到左侧",
+            "ahkCode": "SetWindowPositionAndSize(-10, 0, 892, 1600)"
+          }
+        ],
         "*;": [
           {
             "windowGroupID": 0,
@@ -86,14 +94,6 @@
             "actionTypeID": 9,
             "comment": "label:77",
             "actionValueID": 7
-          }
-        ],
-        "*c": [
-          {
-            "windowGroupID": 0,
-            "actionTypeID": 2,
-            "comment": "label:21",
-            "actionValueID": 5
           }
         ],
         "*d": [
@@ -172,16 +172,16 @@
           {
             "windowGroupID": 0,
             "actionTypeID": 8,
-            "comment": "窗口到右侧",
-            "ahkCode": "SetWindowPositionAndSize(1820, 0, 750, 1600)"
+            "comment": "三分屏幕 右侧窗格 ",
+            "ahkCode": "SetWindowPositionAndSize(1690, 0, 878, 1610)"
           }
         ],
         "*q": [
           {
             "windowGroupID": 0,
             "actionTypeID": 8,
-            "comment": "窗口到左侧",
-            "ahkCode": "SetWindowPositionAndSize(-10, 0, 892, 1600)"
+            "comment": "三分屏幕 左上部分(视频窗格)",
+            "ahkCode": "SetWindowPositionAndSize(-10, 0, 1718, 970)"
           }
         ],
         "*r": [
@@ -259,9 +259,9 @@
         "*z": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 2,
-            "comment": "label:24",
-            "actionValueID": 8
+            "actionTypeID": 8,
+            "comment": "三分屏幕 左下部分()",
+            "ahkCode": "SetWindowPositionAndSize(-10, 960, 1718, 650)"
           }
         ],
         "singlePress": [
