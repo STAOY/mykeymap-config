@@ -29,15 +29,14 @@
             "windowGroupID": 0,
             "actionTypeID": 8,
             "comment": "窗口位置1",
-            "ahkCode": "SetWindowPositionAndSize(0, 0, 800, 1600)"
+            "ahkCode": "SetWindowPositionAndSize(-10, 0, 880, 1610)"
           }
         ],
         "*2": [
           {
             "windowGroupID": 0,
-            "actionTypeID": 3,
-            "comment": "label:6",
-            "actionValueID": 6
+            "actionTypeID": 8,
+            "ahkCode": "SetWindowPositionAndSize(850, 0, 878, 1610)"
           }
         ],
         "*3": [
@@ -45,7 +44,7 @@
             "windowGroupID": 0,
             "actionTypeID": 8,
             "comment": "窗口到左侧",
-            "ahkCode": "SetWindowPositionAndSize(-10, 0, 892, 1600)"
+            "ahkCode": "SetWindowPositionAndSize(1710, 0, 860, 1610)"
           }
         ],
         "*;": [
