@@ -281,6 +281,70 @@
       "parentID": 5,
       "delay": 0,
       "hotkeys": {
+        "*'": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*.": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*/": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*1": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
+        "*;": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:16",
+            "actionValueID": 14
+          }
+        ],
         "*a": [
           {
             "windowGroupID": 0,
@@ -288,6 +352,14 @@
             "comment": "Windows Terminal",
             "winTitle": "ahk_exe WindowsTerminal.exe",
             "target": "shortcuts\\终端预览.lnk"
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "brave",
+            "target": "shortcuts\\Brave.lnk"
           }
         ],
         "*d": [
@@ -303,9 +375,9 @@
           {
             "windowGroupID": 0,
             "actionTypeID": 1,
-            "comment": "File Explorer",
-            "winTitle": "ahk_class CabinetWClass ahk_exe Explorer.EXE",
-            "target": "shortcuts\\File Explorer.lnk"
+            "comment": "Eudic",
+            "winTitle": "欧路词典 ahk_class Qt51516QWindowIcon ahk_exe eudic.exe",
+            "target": "\"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\欧路词典\\欧路词典 eudic.lnk\""
           }
         ],
         "*h": [
@@ -403,9 +475,9 @@
           {
             "windowGroupID": 0,
             "actionTypeID": 1,
-            "comment": "FoxitReader",
-            "winTitle": "ahk_exe FoxitReader.exe",
-            "target": "D:\\install\\Foxit Reader\\FoxitReader.exe"
+            "comment": "WSA微信读书",
+            "winTitle": "微信读书 ahk_class com.tencent.weread ahk_exe WsaClient.exe",
+            "target": "C:\\Users\\stao\\AppData\\Local\\Microsoft\\WindowsApps\\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\\WsaClient.exe /launch wsa://com.tencent.weread"
           }
         ],
         "*s": [
